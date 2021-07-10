@@ -63,7 +63,7 @@ public class Option1Selected : MonoBehaviour
         }
         avatarColors = new Dictionary<string, Color32>();
         avatarColors.Add("nonno_avatarQ", new Color32(72, 19, 105, 255));
-        avatarColors.Add("papà_avatarQ", new Color32(188, 69, 134, 255));
+        avatarColors.Add("papa_avatarQ", new Color32(188, 69, 134, 255));
         avatarColors.Add("mamma_avatarQ", new Color32(83, 143, 197, 255));
         avatarColors.Add("nicholas_avatarQ", new Color32(83, 143, 197, 255));
         avatarColors.Add("tommy_avatarQ", new Color32(188, 69, 134, 255));
@@ -77,7 +77,7 @@ public class Option1Selected : MonoBehaviour
                 ["nonno_avatarQ"] = "Grandpa",
                 ["nonna2_avatarQ"] = "Grandma",
                 ["nonna70_avatarQ"] = "Grandma",
-                ["papà_avatarQ"] = "Dad",
+                ["papa_avatarQ"] = "Dad",
                 ["mamma_avatarQ"] = "Mom",
                 ["nicholas_avatarQ"] = "Nicholas",
                 ["tommy_avatarQ"] = "Tommy",
@@ -89,7 +89,7 @@ public class Option1Selected : MonoBehaviour
                 ["nonno_avatarQ"] = "Nonno",
                 ["nonna2_avatarQ"] = "Nonna",
                 ["nonna70_avatarQ"] = "Nonna",
-                ["papà_avatarQ"] = "Papà",
+                ["papa_avatarQ"] = "Papà",
                 ["mamma_avatarQ"] = "Mamma",
                 ["nicholas_avatarQ"] = "Nicholas",
                 ["tommy_avatarQ"] = "Tommy",
@@ -296,13 +296,23 @@ public class Option1Selected : MonoBehaviour
         yield return waitForAnimationFinished();
         yield return waitForSkip();
         GameObject responsego = Instantiate(response) as GameObject;
-        responsego.SetActive(false);
+
+        RectTransform responseGoRect = responsego.GetComponent<RectTransform>();
+  
+        RectTransform content = GameObject.Find("Content").transform as RectTransform;
+        
+        responseGoRect.gameObject.SetActive(false);
+        responseGoRect.anchorMin = new Vector2(0, 0.5f);
+        responseGoRect.anchorMax = new Vector2(1, 0.5f);
+        //replyGoRect.sizeDelta.x = content.rect.size.x;
+        responseGoRect.transform.SetParent(content);
         responsego.transform.parent = GameObject.Find("Content").transform;
         Transform responsetext = responsego.transform.Find("Textbox container/Textbox inner container/Player text/Text (TMP)");
         Transform responsename = responsego.transform.Find("Textbox container/Textbox inner container/Character name");
         Transform responseavatar = responsego.transform.Find("Circular mask/Character image");
         responsetext.GetComponent<TextLocalizer>().id = responseString;
         responsetext.GetComponent<TMP_Text>().text = TextLocalizer.ResolveStringValue(responseString);
+        Debug.Log(avatar.name);
         responsename.GetComponent<TMP_Text>().text = avatarNamesTranslations[TextLocalizer.CurrentLanguage][avatar.name];
         responsename.GetComponent<TMP_Text>().color = avatarColors[avatar.name];
         if (avatar) {
@@ -954,7 +964,7 @@ public class Option1Selected : MonoBehaviour
                 } else if (tags[0] == "grandma70") {
                     who = Resources.Load<Sprite>("Images/Avatar/nonna70_avatarQ");
                 } else if (tags[0] == "dad") {
-                    who = Resources.Load<Sprite>("Images/Avatar/papà_avatarQ");
+                    who = Resources.Load<Sprite>("Images/Avatar/papa_avatarQ");
                 } else if (tags[0] == "mom") {
                     who = Resources.Load<Sprite>("Images/Avatar/mamma_avatarQ");
                 } else if (tags[0] == "nicholas") {
