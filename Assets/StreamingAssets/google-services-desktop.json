@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "737359671531-nqmelr9tnrsps2mrbe2johtmgkjekeia.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiGALqJd4bD5KJBLskwwKQ0-yhLSjBRDc"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:737359671531:ios:c37cd3fa064d925a284eae", 
+        "android_client_info": {
+          "package_name": "com.ThreeLeaves.PathsBeatricesAdventure"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "pathsbea.appspot.com", 
+    "project_id": "pathsbea", 
+    "firebase_url": "https://pathsbea-default-rtdb.europe-west1.firebasedatabase.app", 
+    "project_number": "737359671531"
+  }
+}

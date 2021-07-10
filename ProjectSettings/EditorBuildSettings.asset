@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 71d6c1e9f101e437f89e931557ca3812
+  - enabled: 1
+    path: Assets/Scenes/Ending9.unity
+    guid: d46f5374a70374cc9b8a92de1dacb51e
+  - enabled: 1
+    path: Assets/Scenes/Chapter9.unity
+    guid: ea084d243381b4d369f9648d182c3701
+  - enabled: 1
+    path: Assets/Scenes/Ending8.unity
+    guid: 058d3d476e0204394b8008fa8ba6e8f0
+  - enabled: 1
+    path: Assets/Scenes/Chapter8.unity
+    guid: b11e6832677a7494a9d4d4548390ae80
+  - enabled: 1
+    path: Assets/Scenes/Ending7.unity
+    guid: 336c046200162485492b038f88e2e9fc
+  - enabled: 1
+    path: Assets/Scenes/Chapter7.unity
+    guid: c572af9647d024d8e95a34ed55ebee3f
+  - enabled: 1
+    path: Assets/Scenes/Ending6.unity
+    guid: 7be140c1b37d5437fa836727a397bfed
+  - enabled: 1
+    path: Assets/Scenes/Chapter6.unity
+    guid: 5e8de8dac103f41c792636532d8000c3
+  - enabled: 1
+    path: Assets/Scenes/Ending5.unity
+    guid: bbee2eb7697254bf0a1aae284093bf9d
+  - enabled: 1
+    path: Assets/Scenes/Chapter5.unity
+    guid: 70c9df09225434b5ca9dea02a5ad84d2
+  - enabled: 1
+    path: Assets/Scenes/Ending4.unity
+    guid: 2b6c3935679c644fb8fa0318a80c65ab
+  - enabled: 1
+    path: Assets/Scenes/Chapter4.unity
+    guid: 898f05ea4109d40eea3fe35827055164
+  - enabled: 1
+    path: Assets/Scenes/Ending3.unity
+    guid: 058f1e605b02e4d9aa36458e4395d600
+  - enabled: 1
+    path: Assets/Scenes/Chapter3.unity
+    guid: 3194212b5805441a180db157d9f376e8
+  - enabled: 1
+    path: Assets/Scenes/Ending2.unity
+    guid: 19bd16215f1e84f2ca68e5923bbc1e62
+  - enabled: 1
+    path: Assets/Scenes/Chapter2.unity
+    guid: bf95d759beefa438b9a16499bc00418d
+  - enabled: 1
+    path: Assets/Scenes/Ending1.unity
+    guid: 0339636f374234d4890c5be9f011f1e3
+  - enabled: 1
+    path: Assets/Scenes/Chapter1.unity
+    guid: 48b5d2ee1bb12449d9249b2c1ad5b79c
+  - enabled: 1
+    path: Assets/Scenes/Ending0.unity
+    guid: a7bde47451e4c42968015f6d49d58f4c
+  - enabled: 1
+    path: Assets/Scenes/Ishak.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/IshakProfile.unity
+    guid: 24f74d907ca1945229471f1718940dd4
+  - enabled: 1
+    path: Assets/Scenes/PlayerProfile.unity
+    guid: 57ce747177eab4d1da3794538e8fc1da
+  - enabled: 1
+    path: Assets/Scenes/Gallery.unity
+    guid: c37c987d9d572444d956ec87e53bf11d
+  - enabled: 1
+    path: Assets/Scenes/Notes.unity
+    guid: f9b790f9ad05644fbb4f1a9bae8e02bd
+  - enabled: 1
+    path: Assets/Scenes/Affinity.unity
+    guid: 3233e68cb07354cbb8e6dd75c9168931
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: c92b7ffadaca44e638218b1339db795f
+  - enabled: 1
+    path: Assets/Scenes/Note0.unity
+    guid: 11765df35514d491c8dff1430a619e12
+  - enabled: 1
+    path: Assets/Scenes/Note1.unity
+    guid: 3c7d8060f097a4097bbde99097e78e76
+  - enabled: 1
+    path: Assets/Scenes/Note2.unity
+    guid: e66f01c2a62f74faba55b758fb50709c
+  - enabled: 1
+    path: Assets/Scenes/Note3.unity
+    guid: d8d4283438a3348a0b8c8a937eed79fc
+  - enabled: 1
+    path: Assets/Scenes/Note4.unity
+    guid: a9abee5bb4b3043e8bb15e089eb6414e
+  - enabled: 1
+    path: Assets/Scenes/Note5.unity
+    guid: 8905c12e4eb224aaab7f818f04811799
+  - enabled: 1
+    path: Assets/Scenes/Note6.unity
+    guid: f295926a42616482083456e7e0eaf302
+  - enabled: 1
+    path: Assets/Scenes/Note7.unity
+    guid: 2ab999a1ca7ba4b9da5337512afc614b
+  - enabled: 1
+    path: Assets/Scenes/Note8.unity
+    guid: a47f3e0cb1fc84ced81911bf03dccfb8
+  - enabled: 1
+    path: Assets/Scenes/Note9.unity
+    guid: a144cdb55a7564442a9ff13523884e18
+  - enabled: 1
+    path: Assets/Scenes/GrandmaEnding.unity
+    guid: d524b703956be4da9a0c7c64fcd90eb5
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: b8a5c7a6439f74976becd6e78e15812b
+  - enabled: 1
+    path: Assets/Scenes/Retry.unity
+    guid: 11a4eb8223ff949459bc689da6a9842d
+  m_configObjects: {}
